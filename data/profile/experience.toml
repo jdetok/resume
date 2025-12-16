@@ -1,0 +1,24 @@
+[[experience]]
+company = "Saint Louis University"
+location = "St. Louis, MO"
+  [[experience.roles]]
+  role = "Systems Specialist - Student Financial Services"
+  start = "October 2024"
+  end = "Present"
+
+  highlights = [
+    "Administer Banner 9 financial aid systems",
+    "Built Alteryx workflows for federal reporting",
+    "Automated reconciliation with Python and SQL"
+  ]
+
+  [[experience.roles]]
+  company = "Saint Louis University"
+  role = "Federal Worl Study Coordinator"
+  location = "St. Louis, MO"
+  start = "July 2023"
+  end = "October 2024"
+
+  highlights = [
+    "Managed Federal Work Study program"
+  ]

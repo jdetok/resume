@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;Some text about me&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;div class=&#34;skills&#34;&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;section&gt;&#xA;&#xA;  &#xA;    &lt;div class=&#34;company&#34;&gt;&#xA;      &lt;strong&gt;Saint Louis University&lt;/strong&gt;, St. Louis, MO&#xA;      &#xA;        &lt;div class=&#34;role&#34;&gt;&#xA;          &lt;strong&gt;&amp;emsp;Systems Specialist - Student Financial Services&lt;/strong&gt;&#xA;          &lt;span class=&#34;dates&#34;&gt;October 2024–Present&lt;/span&gt;&#xA;          &lt;ul&gt;&#xA;            &amp;emsp;&#xA;              &lt;li&gt;Administer Banner 9 financial aid systems&lt;/li&gt;&#xA;            &#xA;              &lt;li&gt;Built Alteryx workflows for federal reporting&lt;/li&gt;&#xA;            &#xA;              &lt;li&gt;Automated reconciliation with Python and SQL&lt;/li&gt;&#xA;            &#xA;          &lt;/ul&gt;&#xA;        &lt;/div&gt;&#xA;      &#xA;        &lt;div class=&#34;role&#34;&gt;&#xA;          &lt;strong&gt;&amp;emsp;Federal Worl Study Coordinator&lt;/strong&gt;&#xA;          &lt;span class=&#34;dates&#34;&gt;July 2023–October 2024&lt;/span&gt;&#xA;          &lt;ul&gt;&#xA;            &amp;emsp;&#xA;              &lt;li&gt;Managed Federal Work Study program&lt;/li&gt;&#xA;            &#xA;          &lt;/ul&gt;&#xA;        &lt;/div&gt;&#xA;      &#xA;    &lt;/div&gt;&#xA;  &#xA;&lt;/section&gt;&#xA;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;section&gt;&#xA;&#xA;  &#xA;    &lt;div class=&#34;item&#34;&gt;&#xA;      &lt;strong&gt;M.S. Information Systems&lt;/strong&gt;, Saint Louis University&#xA;      &lt;span class=&#34;year&#34;&gt;2024-Present&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;  &#xA;    &lt;div class=&#34;item&#34;&gt;&#xA;      &lt;strong&gt;B.A. Educational Studies&lt;/strong&gt;, Webster University&#xA;      &lt;span class=&#34;year&#34;&gt;2018-2022&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;  &#xA;&lt;/section&gt;</description>
+    </item>
+  </channel>
+</rss>
