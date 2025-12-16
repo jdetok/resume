@@ -1,6 +1,7 @@
 [[experience]]
 company = "Saint Louis University"
 location = "St. Louis, MO"
+dates_total = "July 2023 - Present"
 
   [[experience.roles]]
   role = "Systems Specialist - Student Financial Services"
@@ -8,9 +9,14 @@ location = "St. Louis, MO"
   end = "Present"
 
   highlights = [
-    "Administer Banner 9 financial aid systems",
-    "Built Alteryx workflows for federal reporting",
-    "Automated reconciliation with Python and SQL"
+    """Design & develop systems for administering federal and 
+    institutional financial aid""",
+    """Utilize data manipulation tules like Alteryx and scripting languages 
+    like Python and Javascript to automate processes""",
+    """Write SQL reports for high-volume Oracle databases, particularly the 
+    Ellucian Banner SIS (student information system) database""",
+    """Write scripts (primarily in Python) to generate SQL INSERT and 
+    UPDATE statements that automate Banner processes"""
   ]
 
   [[experience.roles]]
@@ -21,5 +27,24 @@ location = "St. Louis, MO"
   end = "October 2024"
 
   highlights = [
-    "Managed Federal Work Study program"
+    "Managed FWS (Federal Work Study) program", 
+    "Redesigned FWS community service agreement process in Qualtrics",
+    """Analyzed FWS vs. non-FWS Student Worker data to find opportunities
+    to maximize FWS spending, resulting in an additional ~$600,000 in funds 
+    being spent""",
+  ]
+
+[[experience]]
+company = "Washington Univeristy School of Medicine"
+location = "St. Louis, MO"
+dates_total = "June 2022 - July 2023"
+
+  [[experience.roles]]
+  role = "Planning Assistant - Operations & Faciliity Management"
+  start = "June 2022"
+  end = "July 2023"
+  
+  highlights = [
+    """Provided project support on the BJCIH Vertical Expansion Project, 
+    the Neuroscience Research Building, and the Ambulatory Cancer Building""", 
   ]

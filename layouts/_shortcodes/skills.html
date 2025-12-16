@@ -1,9 +1,9 @@
 <section class="skills">
   {{ range .Site.Data.profile.skills.skillgroup }}
     <div class="skillgroup">
-      <h3>&emsp;{{ .skillgroup }}</h3>
+      <h3>{{ .skillgroup }}</h3>
       <ul>
-        {{ range .skill }}
+        {{ range .groupedskills }}
           <li>{{ . }}</li>
         {{ end }}
       </ul>

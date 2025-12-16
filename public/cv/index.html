@@ -1,42 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <style>
-        body {
-            font-family: "Inter", system-ui, sans-serif;
-            font-size: 11pt;
-            line-height: 1.5;
-            color: #111;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 2px solid #000;
-            margin-bottom: 1rem;
-        }
-
-        section {
-            margin-bottom: 1.2rem;
-        }
-
-        .skills {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 1.5rem;
-        }
-
-        .skillgroup {
-          width: 48%;
-        }
-
-        @media print {
-          .skills {
-            grid-template-columns: 1fr 1fr;
-          }
-        }
-
-    </style>
+    
+    <link rel="stylesheet" href="/css/cv.min.css">
   </head>
   <body>
     <header>
@@ -49,18 +15,24 @@
         </div>
         <div class="links">
           
-          <a href="https://github.com/jdetok">GitHub</a>
+          | <a href="https://github.com/jdetok">GitHub |</a>
+          
+          | <a href="https://www.linkedin.com/in/justin-dekock-257879185">LinkedIn |</a>
           
         </div>
       </div>
     </header>
-    <main><h2 id="summary">Summary</h2>
+    <main><h2 class="section-title" id="summary">
+  Summary
+</h2>
 <p>Some text about me&hellip;</p>
-<h2 id="skills">Skills</h2>
+<h2 class="section-title" id="skills">
+  Skills
+</h2>
 <section class="skills">
   
     <div class="skillgroup">
-      <h3>&emsp;Programming Languages</h3>
+      <h3>Programming Languages</h3>
       <ul>
         
           <li>Go (formerly Golang)</li>
@@ -77,22 +49,20 @@
     </div>
   
     <div class="skillgroup">
-      <h3>&emsp;Data Manipulation/Visualization</h3>
+      <h3>Tools &amp; Frameworks</h3>
       <ul>
         
-          <li>Alteryx</li>
+          <li>Git/Github</li>
         
-          <li>Tableau</li>
+          <li>Docker</li>
         
-          <li>Maptlotlib/Seaborn</li>
-        
-          <li>Plotly</li>
+          <li>Qualtrics</li>
         
       </ul>
     </div>
   
     <div class="skillgroup">
-      <h3>&emsp;Database</h3>
+      <h3>Database</h3>
       <ul>
         
           <li>Oracle (PL/SQL)</li>
@@ -107,47 +77,83 @@
     </div>
   
     <div class="skillgroup">
-      <h3>&emsp;Tools &amp; Frameworks</h3>
+      <h3>Data Manipulation/Visualization</h3>
       <ul>
         
-          <li>Git</li>
+          <li>Alteryx</li>
         
-          <li>Docker</li>
+          <li>Tableau</li>
         
-          <li>Qualtrics</li>
+          <li>Maptlotlib/Seaborn</li>
+        
+          <li>Plotly</li>
         
       </ul>
     </div>
   
 </section>
 
-<h2 id="experience">Experience</h2>
-<section>
+<h2 class="section-title" id="experience">
+  Experience
+</h2>
+<section class="experience">
 
   
     <div class="company">
-      <strong>&emsp;Saint Louis University</strong>, St. Louis, MO
+     <div class="company_ttl">
+        <strong>Saint Louis University</strong>, St. Louis, MO | July 2023 - Present
+      </div>
       
         <div class="role">
-          <strong>&emsp;&emsp;Systems Specialist - Student Financial Services</strong> |
+          <strong>Systems Specialist - Student Financial Services</strong> |
           <span class="dates">October 2024–Present</span>
-          <ul>
-            &emsp;
-              &emsp;&emsp;<li>Administer Banner 9 financial aid systems</li>
+          <ul class="highlights">
             
-              &emsp;&emsp;<li>Built Alteryx workflows for federal reporting</li>
+              <li>Design &amp; develop systems for administering federal and 
+    institutional financial aid</li>
             
-              &emsp;&emsp;<li>Automated reconciliation with Python and SQL</li>
+              <li>Utilize data manipulation tules like Alteryx and scripting languages 
+    like Python and Javascript to automate processes</li>
+            
+              <li>Write SQL reports for high-volume Oracle databases, particularly the 
+    Ellucian Banner SIS (student information system) database</li>
+            
+              <li>Write scripts (primarily in Python) to generate SQL INSERT and 
+    UPDATE statements that automate Banner processes</li>
             
           </ul>
         </div>
       
         <div class="role">
-          <strong>&emsp;&emsp;Federal Worl Study Coordinator</strong> |
+          <strong>Federal Worl Study Coordinator</strong> |
           <span class="dates">July 2023–October 2024</span>
-          <ul>
-            &emsp;
-              &emsp;&emsp;<li>Managed Federal Work Study program</li>
+          <ul class="highlights">
+            
+              <li>Managed FWS (Federal Work Study) program</li>
+            
+              <li>Redesigned FWS community service agreement process in Qualtrics</li>
+            
+              <li>Analyzed FWS vs. non-FWS Student Worker data to find opportunities
+    to maximize FWS spending, resulting in an additional ~$600,000 in funds 
+    being spent</li>
+            
+          </ul>
+        </div>
+      
+    </div>
+  
+    <div class="company">
+     <div class="company_ttl">
+        <strong>Washington Univeristy School of Medicine</strong>, St. Louis, MO | June 2022 - July 2023
+      </div>
+      
+        <div class="role">
+          <strong>Planning Assistant - Operations &amp; Faciliity Management</strong> |
+          <span class="dates">June 2022–July 2023</span>
+          <ul class="highlights">
+            
+              <li>Provided project support on the BJCIH Vertical Expansion Project, 
+    the Neuroscience Research Building, and the Ambulatory Cancer Building</li>
             
           </ul>
         </div>
@@ -156,17 +162,19 @@
   
 </section>
 
-<h2 id="education">Education</h2>
+<h2 class="section-title" id="education">
+  Education
+</h2>
 <section>
 
   
     <div class="item">
-      <strong>M.S. Information Systems</strong>, Saint Louis University
+      <strong>M.S. Information Systems</strong>, Saint Louis University |
       <span class="year">2024-Present</span>
     </div>
   
     <div class="item">
-      <strong>B.A. Educational Studies</strong>, Webster University
+      <strong>B.A. Educational Studies</strong>, Webster University |
       <span class="year">2018-2022</span>
     </div>
   

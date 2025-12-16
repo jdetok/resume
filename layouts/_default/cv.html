@@ -1,42 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    <style>
-        body {
-            font-family: "Inter", system-ui, sans-serif;
-            font-size: 11pt;
-            line-height: 1.5;
-            color: #111;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 2px solid #000;
-            margin-bottom: 1rem;
-        }
-
-        section {
-            margin-bottom: 1.2rem;
-        }
-
-        .skills {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 1.5rem;
-        }
-
-        .skillgroup {
-          width: 48%;
-        }
-
-        @media print {
-          .skills {
-            grid-template-columns: 1fr 1fr;
-          }
-        }
-
-    </style>
+    {{ $css := resources.Get "css/cv.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   </head>
   <body>
     <header>
@@ -49,7 +15,7 @@
         </div>
         <div class="links">
           {{ range .Site.Data.profile.social.social }}
-          <a href="{{ .url }}">{{ .label }}</a>
+          | <a href="{{ .url }}">{{ .label }} |</a>
           {{ end }}
         </div>
       </div>

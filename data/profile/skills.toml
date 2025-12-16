@@ -1,6 +1,6 @@
 [[skillgroup]]
 skillgroup = "Programming Languages"
-skill = [
+groupedskills = [
     "Go (formerly Golang)", 
     "Python", 
     "C++",
@@ -9,17 +9,16 @@ skill = [
 ]
 
 [[skillgroup]]
-skillgroup = "Data Manipulation/Visualization"
-skill = [
-    "Alteryx",
-    "Tableau", 
-    "Maptlotlib/Seaborn", 
-    "Plotly"
+skillgroup = "Tools & Frameworks"
+groupedskills = [
+    "Git/Github", 
+    "Docker", 
+    "Qualtrics"
 ]
 
 [[skillgroup]]
 skillgroup = "Database"
-skill = [
+groupedskills = [
     "Oracle (PL/SQL)", 
     "Postgres (PL/pgSQL)", 
     "MS SQL Server (TSQL)", 
@@ -27,10 +26,10 @@ skill = [
 ]
 
 [[skillgroup]]
-skillgroup = "Tools & Frameworks"
-skill = [
-    "Git", 
-    "Docker", 
-    "Qualtrics"
+skillgroup = "Data Manipulation/Visualization"
+groupedskills = [
+    "Alteryx",
+    "Tableau", 
+    "Maptlotlib/Seaborn", 
+    "Plotly"
 ]
-

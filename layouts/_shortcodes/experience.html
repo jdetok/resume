@@ -1,15 +1,17 @@
-<section>
+<section class="experience">
 
   {{ range .Site.Data.profile.experience.experience }}
     <div class="company">
-      <strong>&emsp;{{ .company }}</strong>, {{ .location }}
+     <div class="company_ttl">
+        <strong>{{ .company }}</strong>, {{ .location }} | {{ .dates_total }}
+      </div>
       {{ range .roles }}
         <div class="role">
-          <strong>&emsp;&emsp;{{ .role }}</strong> |
+          <strong>{{ .role }}</strong> |
           <span class="dates">{{ .start }}–{{ .end }}</span>
-          <ul>
-            &emsp;{{ range .highlights }}
-              &emsp;&emsp;<li>{{ . }}</li>
+          <ul class="highlights">
+            {{ range .highlights }}
+              <li>{{ . }}</li>
             {{ end }}
           </ul>
         </div>

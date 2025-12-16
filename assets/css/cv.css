@@ -1,0 +1,74 @@
+body {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: .2rem;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid black; */
+    margin-left: 1rem;
+    padding: .3rem;
+    gap: 0rem;
+}
+
+.skillgroup {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* border: 2px solid black; */
+    width: 100%;
+}
+
+.role {
+    margin-left: 1.5rem;
+}
+
+.highlights {
+    margin-top: 0.25rem;   /* reduces vertical gap */
+    margin-bottom: 0.5rem;
+    padding-left: 1.25rem; /* controls how far list is indented */
+}
+
+.highlights li {
+    margin: 0.2rem 0;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.company_ttl {
+    font-size: 20px;
+    text-decoration: underline;
+    /* color: green; */
+}
+
+@media print {
+    .skills {
+    grid-template-columns: 1fr 1fr;
+    }
+}
