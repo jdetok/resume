@@ -1,0 +1,36 @@
+[[skillgroup]]
+skillgroup = "Programming Languages"
+skill = [
+    "Go (formerly Golang)", 
+    "Python", 
+    "C++",
+    "JavaScript", 
+    "HTML/CSS"
+]
+
+[[skillgroup]]
+skillgroup = "Data Manipulation/Visualization"
+skill = [
+    "Alteryx",
+    "Tableau", 
+    "Maptlotlib/Seaborn", 
+    "Plotly"
+]
+
+[[skillgroup]]
+skillgroup = "Database"
+skill = [
+    "Oracle (PL/SQL)", 
+    "Postgres (PL/pgSQL)", 
+    "MS SQL Server (TSQL)", 
+    "MongoDB (NO-SQL)"
+]
+
+[[skillgroup]]
+skillgroup = "Tools & Frameworks"
+skill = [
+    "Git", 
+    "Docker", 
+    "Qualtrics"
+]
+

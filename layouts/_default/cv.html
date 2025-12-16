@@ -20,6 +20,22 @@
             margin-bottom: 1.2rem;
         }
 
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+        }
+
+        .skillgroup {
+          width: 48%;
+        }
+
+        @media print {
+          .skills {
+            grid-template-columns: 1fr 1fr;
+          }
+        }
+
     </style>
   </head>
   <body>

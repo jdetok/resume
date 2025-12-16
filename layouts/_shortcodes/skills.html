@@ -1,13 +1,12 @@
-<div class="skills">
-  {{ range .Site.Data.experience }}
-  <div class="container">
-    <span class="date">{{ .startDate }} - {{ .endDate }}</span>
-    <div class="content">
-      <div class="title">{{ .position }}</div>
-      <div class="subtitle">
-        <span>{{ .company }}</span> <span>{{ .location }}</span>
-      </div>
+<section class="skills">
+  {{ range .Site.Data.profile.skills.skillgroup }}
+    <div class="skillgroup">
+      <h3>&emsp;{{ .skillgroup }}</h3>
+      <ul>
+        {{ range .skill }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
     </div>
-  </div>
   {{ end }}
-</div>
+</section>

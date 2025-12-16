@@ -20,6 +20,22 @@
             margin-bottom: 1.2rem;
         }
 
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+        }
+
+        .skillgroup {
+          width: 48%;
+        }
+
+        @media print {
+          .skills {
+            grid-template-columns: 1fr 1fr;
+          }
+        }
+
     </style>
   </head>
   <body>
@@ -41,37 +57,97 @@
     <main><h2 id="summary">Summary</h2>
 <p>Some text about me&hellip;</p>
 <h2 id="skills">Skills</h2>
-<div class="skills">
+<section class="skills">
   
-</div>
+    <div class="skillgroup">
+      <h3>&emsp;Programming Languages</h3>
+      <ul>
+        
+          <li>Go (formerly Golang)</li>
+        
+          <li>Python</li>
+        
+          <li>C&#43;&#43;</li>
+        
+          <li>JavaScript</li>
+        
+          <li>HTML/CSS</li>
+        
+      </ul>
+    </div>
+  
+    <div class="skillgroup">
+      <h3>&emsp;Data Manipulation/Visualization</h3>
+      <ul>
+        
+          <li>Alteryx</li>
+        
+          <li>Tableau</li>
+        
+          <li>Maptlotlib/Seaborn</li>
+        
+          <li>Plotly</li>
+        
+      </ul>
+    </div>
+  
+    <div class="skillgroup">
+      <h3>&emsp;Database</h3>
+      <ul>
+        
+          <li>Oracle (PL/SQL)</li>
+        
+          <li>Postgres (PL/pgSQL)</li>
+        
+          <li>MS SQL Server (TSQL)</li>
+        
+          <li>MongoDB (NO-SQL)</li>
+        
+      </ul>
+    </div>
+  
+    <div class="skillgroup">
+      <h3>&emsp;Tools &amp; Frameworks</h3>
+      <ul>
+        
+          <li>Git</li>
+        
+          <li>Docker</li>
+        
+          <li>Qualtrics</li>
+        
+      </ul>
+    </div>
+  
+</section>
 
 <h2 id="experience">Experience</h2>
 <section>
 
   
     <div class="company">
-      <strong>Saint Louis University</strong>, St. Louis, MO
+      <strong>&emsp;Saint Louis University</strong>, St. Louis, MO
       
         <div class="role">
-          <strong>&emsp;Systems Specialist - Student Financial Services</strong>
+          <strong>&emsp;&emsp;Systems Specialist - Student Financial Services</strong> |
           <span class="dates">October 2024–Present</span>
           <ul>
             &emsp;
-              <li>Administer Banner 9 financial aid systems</li>
+              &emsp;&emsp;<li>Administer Banner 9 financial aid systems</li>
             
-              <li>Built Alteryx workflows for federal reporting</li>
+              &emsp;&emsp;<li>Built Alteryx workflows for federal reporting</li>
             
-              <li>Automated reconciliation with Python and SQL</li>
+              &emsp;&emsp;<li>Automated reconciliation with Python and SQL</li>
             
           </ul>
         </div>
       
         <div class="role">
-          <strong>&emsp;Federal Worl Study Coordinator</strong>
+          <strong>&emsp;&emsp;Federal Worl Study Coordinator</strong> |
           <span class="dates">July 2023–October 2024</span>
           <ul>
             &emsp;
-              <li>Managed Federal Work Study program</li>
+              &emsp;&emsp;<li>Managed Federal Work Study program</li>
             
           </ul>
         </div>
