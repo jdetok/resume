@@ -4,7 +4,14 @@ email = "jdekock17@gmail.com"
 phone = "314-277-2550"
 address = "St. Louis, MO"
 
-summary = """
+summary_real = """
+I'm a driven individual with 4+ years of professional experience, expecting 
+to graduate with my M.S. in Information Systems in winter 2026. I'm passionate
+about software development, systems design/architecture, and systems/database 
+administration. I'm an efficient problem-solver with proficiencies in a wide range
+of programming languages, automation technologies, data manipulation tools, and more. 
+"""
+summary_test = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -78,12 +85,13 @@ dates_total = "July 2023 - Present"
     """Write SQL reports for high-volume Oracle databases, particularly the 
     Ellucian Banner SIS (student information system) database""",
     """Write scripts (primarily in Python) to generate SQL INSERT and 
-    UPDATE statements that automate Banner processes"""
+    UPDATE statements that automate Banner processes""",
+    """Automate survey response collection in Python using the Qualtrics API""",
   ]
 
   [[experience.roles]]
   company = "Saint Louis University"
-  role = "Federal Worl Study Coordinator"
+  role = "Federal Work Study Coordinator"
   location = "St. Louis, MO"
   start = "July 2023"
   end = "October 2024"
@@ -94,6 +102,8 @@ dates_total = "July 2023 - Present"
     """Analyzed FWS vs. non-FWS Student Worker data to find opportunities
     to maximize FWS spending, resulting in an additional ~$600,000 in funds 
     being spent""",
+    """Designed electronic surveys in Qualtrics to digitize paper forms""",
+    """Customized Qualtrics surveys using embedded JavaScript to improve survey quality & accessibility""",
   ]
 
 [[experience]]
@@ -109,6 +119,23 @@ dates_total = "June 2022 - July 2023"
   highlights = [
     """Provided project support on the BJCIH Vertical Expansion Project, 
     the Neuroscience Research Building, and the Ambulatory Cancer Building""", 
+    """Coordinated and documented executive level meetings""",
+    """Created reporting materials using the Microsoft Office Suite, 
+    Adobe Acrobat, etc.""",
+  ]
+
+[[experience]]
+company = "East West Gateway Council of Governments"
+location = "St. Louis, MO"
+dates_total = "Jan. 2022 - June 2022"
+
+  [[experience.roles]]
+  role = "Urban Planning Intern"
+  start = "Jan. 2022"
+  end = "June 2022"
+  
+  highlights = [
+    """Studied urban planning principles, provided support to and observed several local planning projects""",
   ]
 
 # EDUCATION SECTION
