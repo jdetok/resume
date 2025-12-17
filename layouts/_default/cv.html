@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    {{ $css := resources.Get "css/cv.css" | resources.Minify }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    <!-- {{ $css := resources.Get "css/cv.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}"> -->
+{{ $css := resources.Get "css/cv.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+
+
   </head>
   <body>
     <section class="hdr">
