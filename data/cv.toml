@@ -1,0 +1,125 @@
+name = "Justin DeKock"
+pronouns = "he/him/his"
+email = "jdekock17@gmail.com"
+phone = "314-277-2550"
+address = "St. Louis, MO"
+
+summary = """
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+culpa qui officia deserunt mollit anim id est laborum.
+"""
+
+# SOCIAL LINKS
+[[social]]
+label = "GitHub"
+url = "https://github.com/jdetok"
+
+[[social]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/justin-dekock-257879185"
+
+# SKILLS - GROUPED TOGETHER BY CATEGORY
+[[skillgroup]]
+skillgroup = "Programming Languages"
+groupedskills = [
+    "Go (formerly Golang)", 
+    "Python", 
+    "C++",
+    "JavaScript", 
+    "HTML/CSS"
+]
+
+[[skillgroup]]
+skillgroup = "Tools & Frameworks"
+groupedskills = [
+    "Git/Github", 
+    "Docker", 
+    "Qualtrics"
+]
+
+[[skillgroup]]
+skillgroup = "Database"
+groupedskills = [
+    "Oracle (PL/SQL)", 
+    "Postgres (PL/pgSQL)", 
+    "MS SQL Server (TSQL)", 
+    "MongoDB (NO-SQL)"
+]
+
+[[skillgroup]]
+skillgroup = "Data Manipulation/Visualization"
+groupedskills = [
+    "Alteryx",
+    "Tableau", 
+    "Maptlotlib/Seaborn", 
+    "Plotly"
+]
+
+# WORK EXPERIENCE - SUPPORTS SEVERAL ROLES PER COMPANY
+[[experience]]
+company = "Saint Louis University"
+location = "St. Louis, MO"
+dates_total = "July 2023 - Present"
+
+  [[experience.roles]]
+  role = "Systems Specialist - Student Financial Services"
+  start = "October 2024"
+  end = "Present"
+
+  highlights = [
+    """Design & develop systems for administering federal and 
+    institutional financial aid""",
+    """Utilize data manipulation tules like Alteryx and scripting languages 
+    like Python and Javascript to automate processes""",
+    """Write SQL reports for high-volume Oracle databases, particularly the 
+    Ellucian Banner SIS (student information system) database""",
+    """Write scripts (primarily in Python) to generate SQL INSERT and 
+    UPDATE statements that automate Banner processes"""
+  ]
+
+  [[experience.roles]]
+  company = "Saint Louis University"
+  role = "Federal Worl Study Coordinator"
+  location = "St. Louis, MO"
+  start = "July 2023"
+  end = "October 2024"
+
+  highlights = [
+    "Managed FWS (Federal Work Study) program", 
+    "Redesigned FWS community service agreement process in Qualtrics",
+    """Analyzed FWS vs. non-FWS Student Worker data to find opportunities
+    to maximize FWS spending, resulting in an additional ~$600,000 in funds 
+    being spent""",
+  ]
+
+[[experience]]
+company = "Washington Univeristy School of Medicine"
+location = "St. Louis, MO"
+dates_total = "June 2022 - July 2023"
+
+  [[experience.roles]]
+  role = "Planning Assistant - Operations & Faciliity Management"
+  start = "June 2022"
+  end = "July 2023"
+  
+  highlights = [
+    """Provided project support on the BJCIH Vertical Expansion Project, 
+    the Neuroscience Research Building, and the Ambulatory Cancer Building""", 
+  ]
+
+# EDUCATION SECTION
+[[education]]
+institution = "Saint Louis University"
+degree = "M.S. Information Systems"
+location = "St. Louis, MO"
+year = "2024-Present"
+
+[[education]]
+institution = "Webster University"
+degree = "B.A. Educational Studies"
+location = "Saint Louis, MO"
+year = "2018-2022"

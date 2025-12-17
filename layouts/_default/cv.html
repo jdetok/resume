@@ -12,18 +12,18 @@
   <body>
     <section class="hdr">
       <div class="namepn">
-        <h1>{{ .Site.Data.profile.cv.name }}</h1>
-        <span class="pronouns">{{ .Site.Data.profile.cv.pronouns }}</span>
+        <h1>{{ .Site.Data.cv.name }}</h1>
+        <span class="pronouns">{{ .Site.Data.cv.pronouns }}</span>
       </div>
       
       <div class="contact">
         <div class="contact-info">
-          <span>{{ .Site.Data.profile.cv.email }}</span>
-          <span>{{ .Site.Data.profile.cv.phone }}</span>
-          <span>{{ .Site.Data.profile.cv.address }}</span>
+          <span>{{ .Site.Data.cv.email }}</span>
+          <span>{{ .Site.Data.cv.phone }}</span>
+          <span>{{ .Site.Data.cv.address }}</span>
         </div>
         <div class="links">
-          {{ range .Site.Data.profile.social.social }}
+          {{ range .Site.Data.cv.social }}
           | <a href="{{ .url }}">{{ .label }} |</a>
           {{ end }}
         </div>
