@@ -1,3 +1,7 @@
+html {
+    padding: .2rem;
+}
+
 body {
     font-family: "Inter", system-ui, sans-serif;
     font-size: 11pt;
@@ -5,11 +9,33 @@ body {
     color: #111;
 }
 
+/* main > section {
+    border: 5px solid green;
+}
+
+ul {
+    border: 2px solid blue;
+} */
+h3 {
+    margin: 0;
+    margin-top: 0;
+    /* border: 2px solid magenta; */
+}
 header {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #000;
     margin-bottom: 1rem;
+}
+
+hr.line {
+    border: none;
+    height: 2px;
+    background-color: #3333338d;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: .4rem;
 }
 
 section {
@@ -19,22 +45,29 @@ section {
 .section-title {
     font-size: 24px;
     margin-bottom: 0;
+    margin: 0;
 }
 
 .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* border: 2px solid black; */
+    margin: 0;
     margin-left: 1rem;
     padding: .3rem;
-    gap: 0rem;
 }
 
 .skillgroup {
+    /* border: 2px solid pink; */
+    margin: 0;
     /* display: flex; */
     /* flex-direction: row; */
     /* border: 2px solid black; */
     width: 100%;
+}
+
+.skillgroup_ttl {
+    text-decoration: underline;
+    margin-bottom: 0;
 }
 
 .role {
@@ -47,8 +80,8 @@ section {
     padding-left: 1.25rem; /* controls how far list is indented */
 }
 
-.highlights li {
-    margin: 0.2rem 0;
+ul, li {
+    margin: 0;
 }
 
 .contact {

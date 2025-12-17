@@ -5,7 +5,8 @@ layout: cv
 
 ## Summary
 
-Some text about me...
+{{< summary >}}
+
 
 ## Skills
 
