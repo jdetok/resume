@@ -6,7 +6,11 @@
   </head>
   <body>
     <header>
-      <h1>{{ .Site.Data.profile.cv.name }}</h1>
+      <div class="namepn">
+        <h1>{{ .Site.Data.profile.cv.name }}</h1>
+        <span class="pronouns">{{ .Site.Data.profile.cv.pronouns }}</span>
+      </div>
+      
       <div class="contact">
         <div class="contact-info">
           <span>{{ .Site.Data.profile.cv.email }}</span>

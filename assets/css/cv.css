@@ -21,6 +21,7 @@ h3 {
     margin-top: 0;
     /* border: 2px solid magenta; */
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,15 @@ hr.line {
     margin: auto;
     margin-top: 10px;
     margin-bottom: .4rem;
+}
+
+.namepn > h1 {
+    margin-bottom: 0;
+}
+
+.pronouns {
+    margin-top: 0;
+    font-style: italic;
 }
 
 section {
