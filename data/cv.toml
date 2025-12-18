@@ -9,7 +9,10 @@ I'm a driven individual with 4+ years of professional experience, expecting
 to graduate with my M.S. in Information Systems in winter 2026. I'm passionate
 about software development, systems design/architecture, and systems/database 
 administration. I'm an efficient problem-solver with proficiencies in a wide range
-of programming languages, automation technologies, data manipulation tools, and more. 
+of programming languages, automation technologies, data manipulation tools, 
+and more. My professional experience is primarily in automation scripting and 
+database reporting, and my ever-growing portfolio of personal open-source 
+software development projects can be seen on my public Github account.
 """
 summary_test = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -41,9 +44,10 @@ groupedskills = [
 ]
 
 [[skillgroup]]
-skillgroup = "Tools & Frameworks"
+skillgroup = "Software/Tools"
 groupedskills = [
     "Git/Github", 
+    "UNIX Command Line",
     "Docker", 
     "Qualtrics"
 ]
@@ -150,3 +154,13 @@ institution = "Webster University"
 degree = "B.A. Educational Studies"
 location = "Saint Louis, MO"
 year = "2018-2022"
+
+# OPEN SOURCE PROJECTS
+[[osp]]
+title = "Saint Louis University"
+lang = "St. Louis, MO"
+highlights = [
+  """
+  REST API
+  """,
+]
