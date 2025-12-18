@@ -5,6 +5,11 @@
 weasyprint ./public/cv/index.html cv.pdf
 `
 
+## spell check:
+`
+ispell -a < ./data/cv.toml | grep ^\& > errors.txt
+`
+
 ## structure: 
 - /data
     - .toml files with the data that actually populates the resume

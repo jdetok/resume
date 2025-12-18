@@ -85,7 +85,7 @@ dates_total = "July 2023 - Present"
     """Design & develop systems for administering federal and 
     institutional financial aid""",
     """Utilize data manipulation tools like Alteryx and scripting languages 
-    like Python and Javascript to automate processes""",
+    like Python and JavaScript to automate processes""",
     """Write SQL reports for high-volume Oracle databases, particularly the 
     Ellucian Banner SIS (student information system) database""",
     """Write scripts (primarily in Python) to generate SQL INSERT and 
@@ -148,7 +148,7 @@ institution = "Saint Louis University"
 degree = "M.S. Information Systems"
 location = "St. Louis, MO"
 year = "2024-Present"
-cw_in = ["Python", "Systems Architecture", "Javascript/React", "Cyber Security Principles"]
+cw_in = ["Python", "Systems Architecture", "JavaScript/React", "Cyber Security Principles"]
 desc = """
 I expect to complete my master's degree in Information Systems in winter 2026
 """
@@ -167,13 +167,16 @@ semesters in the computer science program
 # OPEN SOURCE PROJECTS
 [[osp]]
 project = "This resume!"
-
+src_lnk = "https://github.com/jdetok/resume"
+src_lbl = "github.com/jdetok/resume"
 highlights = [
   """I built and maintain this resume using Hugo - a static website generator built with Go""",
 ]
 
 [[osp]]
 project = "My personal website: jdeko.me"
+src_lnk = "https://github.com/jdetok/go-api-jdeko.me"
+src_lbl = "github.com/jdetok/go-api-jdeko.me"
 tech = [
   "Go", 
   "HTML/CSS/JavaScript",
@@ -186,12 +189,14 @@ tech = [
 highlights = [
   """Designed REST API to access NBA/WNBA statistics from a Postgres database""",
   """Designed custom logging system that logs HTTP requests to a MongoDB database""",
-  """Frontend built using plain HTML/CSS/Javascript"""
+  """Frontend built using plain HTML/CSS/JavaScript"""
 ]
 
 
 [[osp]]
 project = "NBA/WNBA Statistics Database"
+src_lnk = "https://github.com/jdetok/bball-etl-cli"
+src_lbl = "github.com/jdetok/bball-etl-cli"
 tech = [
   "Go", 
   "Docker",
@@ -205,6 +210,8 @@ highlights = [
 
 [[osp]]
 project = "GoPuml"
+src_lnk = "https://github.com/jdetok/gopuml"
+src_lbl = "github.com/jdetok/gopuml"
 tech = [
   "Go", 
   "PlantUML (Puml)",
