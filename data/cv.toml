@@ -157,10 +157,18 @@ year = "2018-2022"
 
 # OPEN SOURCE PROJECTS
 [[osp]]
-title = "Saint Louis University"
-lang = "St. Louis, MO"
+title = "jdeko.me - personal website"
+tech = [
+  "Go", 
+  "HTML/CSS/JavaScript",
+  "Docker",
+  "Postgres",
+  "MongoDB",
+  "Apache Web Server",
+  "Cloudflare"
+]
 highlights = [
-  """
-  REST API
-  """,
+  """Designed REST API to access NBA/WNBA statistics from a Postgres database""",
+  """Designed custom logging system that logs HTTP requests to a MongoDB database""",
+  """Frontend built using plain HTML/CSS/Javascript"""
 ]

@@ -1,4 +1,5 @@
 html {
+    max-width: 100%;
     width: 98%;
     margin: auto;
     padding: .2rem;
@@ -9,11 +10,12 @@ body {
     font-size: 11pt;
     line-height: 1.5;
     color: #111;
+    max-width: 100%;
 }
 
 section {
     margin-bottom: .2rem;
-    border-bottom: 1.5px solid #00000057;
+    border-bottom: 1.5px solid #0f0101;
 }
 
 h3 {
@@ -89,7 +91,15 @@ ul, li {
 .company_ttl {
     font-size: 16px;
     text-decoration: underline;
-    /* color: green; */
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    /* width: %; */
+    margin: 0 auto;
+    justify-content:space-evenly;
+    list-style:square;
 }
 
 @media print {

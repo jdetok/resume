@@ -2,7 +2,7 @@
 
 ## save as PDF: 
 `
-weasyprint .public/cv/index.html cv.pdf
+weasyprint ./public/cv/index.html cv.pdf
 `
 
 ## structure: 

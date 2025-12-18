@@ -1,0 +1,17 @@
+<section class="projects">
+  {{ range .Site.Data.cv.osp }}
+     <div class="osp">
+        <strong>{{ .title }}</strong>
+      </div>
+        <ul class="tech">
+        {{ range .tech }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+        <ul class="highlights">
+        {{ range .highlights }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+  {{ end }}
+</section>
