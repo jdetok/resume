@@ -1,9 +1,8 @@
 <section class="projects">
   {{ range .Site.Data.cv.osp }}
      <div class="osp">
-        <strong>{{ .title }}</strong>
-      </div>
-        <ul class="tech">
+        <span class="subsect_ttl"><strong>{{ .project }}</strong></span>
+        <ul class="horiz_ul">
         {{ range .tech }}
             <li>{{ . }}</li>
         {{ end }}
@@ -13,5 +12,6 @@
             <li>{{ . }}</li>
         {{ end }}
         </ul>
+    </div>
   {{ end }}
 </section>

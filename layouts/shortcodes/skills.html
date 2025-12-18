@@ -1,7 +1,7 @@
 <section class="skills">
   {{ range .Site.Data.cv.skillgroup }}
     <div class="skillgroup">
-      <h3 class="skillgroup_ttl">{{ .skillgroup }}</h3>
+      <h3 class="subsect_ttl">{{ .skillgroup }}</h3>
       <ul>
         {{ range .groupedskills }}
           <li>{{ . }}</li>

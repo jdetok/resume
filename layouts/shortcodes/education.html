@@ -1,9 +1,21 @@
 <section>
 
   {{ range .Site.Data.cv.education }}
-    <div class="item">
-      <strong>{{ .degree }}</strong>, {{ .institution }} |
-      <span class="year">{{ .year }}</span>
+    <div class="subsect_ttl">
+      <strong>{{ .degree }}</strong> 
+    </div>
+    <span class="coll">{{ .institution }}</span> | 
+    <span class="year">{{ .year }}</span>
+    <ul class="coll_info">
+      <li class="desc">{{ .desc }}</span>
+      <li class="cw">
+        <span>Relevant coursework in: </span>
+        <ul class="horiz_ul">
+          {{ range .cw_in}}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </ul>
     </div>
   {{ end }}
 </section>

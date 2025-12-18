@@ -2,13 +2,13 @@
 
   {{ range .Site.Data.cv.experience }}
     <div class="company">
-     <div class="company_ttl">
+     <div class="subsect_ttl">
         <strong>{{ .company }}</strong>, {{ .location }} | {{ .dates_total }}
       </div>
       {{ range .roles }}
         <div class="role">
           <strong>{{ .role }}</strong> |
-          <span class="dates">{{ .start }}–{{ .end }}</span>
+          <span class="dates">{{ .start }} - {{ .end }}</span>
           <ul class="highlights">
             {{ range .highlights }}
               <li>{{ . }}</li>

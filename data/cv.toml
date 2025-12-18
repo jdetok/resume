@@ -84,7 +84,7 @@ dates_total = "July 2023 - Present"
   highlights = [
     """Design & develop systems for administering federal and 
     institutional financial aid""",
-    """Utilize data manipulation tules like Alteryx and scripting languages 
+    """Utilize data manipulation tools like Alteryx and scripting languages 
     like Python and Javascript to automate processes""",
     """Write SQL reports for high-volume Oracle databases, particularly the 
     Ellucian Banner SIS (student information system) database""",
@@ -111,12 +111,12 @@ dates_total = "July 2023 - Present"
   ]
 
 [[experience]]
-company = "Washington Univeristy School of Medicine"
+company = "Washington University School of Medicine"
 location = "St. Louis, MO"
 dates_total = "June 2022 - July 2023"
 
   [[experience.roles]]
-  role = "Planning Assistant - Operations & Faciliity Management"
+  role = "Planning Assistant - Operations & Facilities Management"
   start = "June 2022"
   end = "July 2023"
   
@@ -148,16 +148,32 @@ institution = "Saint Louis University"
 degree = "M.S. Information Systems"
 location = "St. Louis, MO"
 year = "2024-Present"
+cw_in = ["Python", "Systems Architecture", "Javascript/React", "Cyber Security Principles"]
+desc = """
+I expect to complete my master's degree in Information Systems in winter 2026
+"""
 
 [[education]]
 institution = "Webster University"
 degree = "B.A. Educational Studies"
 location = "Saint Louis, MO"
 year = "2018-2022"
+cw_in = ["C++", "Programming Principles", "Operating Systems", "Networking Principles"]
+desc = """
+I completed my bachelor's degree in Educational Studies after completing several 
+semesters in the computer science program
+"""
 
 # OPEN SOURCE PROJECTS
 [[osp]]
-title = "jdeko.me - personal website"
+project = "This resume!"
+
+highlights = [
+  """I built and maintain this resume using Hugo - a static website generator built with Go""",
+]
+
+[[osp]]
+project = "My personal website: jdeko.me"
 tech = [
   "Go", 
   "HTML/CSS/JavaScript",
@@ -171,4 +187,31 @@ highlights = [
   """Designed REST API to access NBA/WNBA statistics from a Postgres database""",
   """Designed custom logging system that logs HTTP requests to a MongoDB database""",
   """Frontend built using plain HTML/CSS/Javascript"""
+]
+
+
+[[osp]]
+project = "NBA/WNBA Statistics Database"
+tech = [
+  "Go", 
+  "Docker",
+  "Postgres",
+  "PL/pgSQL"
+]
+highlights = [
+  """Designed a fully normalized relational database to store NBA/WNBA stats""",
+  """Calls official NBA API, cleans/restructures the returned JSON, inserts into database"""
+]
+
+[[osp]]
+project = "GoPuml"
+tech = [
+  "Go", 
+  "PlantUML (Puml)",
+  "Regex"
+]
+highlights = [
+  """Command line tool that scans a Go codebase for specific regex patterns, 
+  maps Go syntax to Plantuml syntax, and outputs a valid Plantuml script that 
+  renders as a UML class diagram""",
 ]
