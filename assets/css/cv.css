@@ -48,7 +48,9 @@ h3 {
     flex-direction: column;
     margin: 0;
 }
-
+.namepn h1 {
+        font-size: 2rem;
+    }
 .pronouns {
     margin-top: 0;
     font-style: italic;
@@ -130,5 +132,11 @@ ul, li {
     html {
         /* margin: 0; */
         width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .namepn h1 {
+        font-size: 2rem;
     }
 }
