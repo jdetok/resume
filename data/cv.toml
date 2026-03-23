@@ -6,10 +6,11 @@ address = "St. Louis, MO"
 
 summary_real = """
 I'm a driven individual with 4+ years of professional experience, expecting 
-to graduate with my M.S. in Information Systems in winter 2026. I'm passionate
+to graduate with my M.S. in Information Systems after completing my Masters Research
+project in December 2026. I'm passionate
 about software development, systems design/architecture, and systems/database 
 administration. I'm an efficient problem-solver with proficiencies in a wide range
-of programming languages, automation technologies, data manipulation tools, 
+of programming languages, automation technologies, data manipulation tools, GIS technologies,
 and more. My professional experience is primarily in automation scripting and 
 database reporting, and my ever-growing portfolio of personal open-source 
 software development projects can be seen on my public Github account.
@@ -36,11 +37,11 @@ url = "https://www.linkedin.com/in/justin-dekock-257879185"
 [[skillgroup]]
 skillgroup = "Programming Languages"
 groupedskills = [
-    "Go (formerly Golang)", 
+    "TypeScript/JavaScript",
+    "Go", 
+    "HTML/CSS",
     "Python", 
-    "C++",
-    "JavaScript", 
-    "HTML/CSS"
+    "C/C++",    
 ]
 
 [[skillgroup]]
@@ -49,7 +50,7 @@ groupedskills = [
     "Git/Github", 
     "UNIX Command Line",
     "Docker", 
-    "Qualtrics"
+    "UML/PlantUML"
 ]
 
 [[skillgroup]]
@@ -62,12 +63,12 @@ groupedskills = [
 ]
 
 [[skillgroup]]
-skillgroup = "Data Manipulation/Visualization"
+skillgroup = "Other Notable Skills"
 groupedskills = [
+    "ArcGIS Maps SDK for JavaScript",
+    "PostGIS", 
+    "Tableau/PowerBI",
     "Alteryx",
-    "Tableau", 
-    "Maptlotlib/Seaborn", 
-    "Plotly"
 ]
 
 # WORK EXPERIENCE - SUPPORTS SEVERAL ROLES PER COMPANY
@@ -148,9 +149,9 @@ institution = "Saint Louis University"
 degree = "M.S. Information Systems"
 location = "St. Louis, MO"
 year = "2024-Present"
-cw_in = ["Python", "Systems Architecture", "JavaScript/React", "Cyber Security Principles"]
+cw_in = ["Systems Architecture", "TypeScript/JavaScript", "Python", "Database Design/Admin", "Cyber Security Principles",]
 desc = """
-I expect to complete my master's degree in Information Systems in winter 2026
+I expect to complete my M.S. in Information Systems in Decemeber 2026, after completing my Masters Research Project.
 """
 
 [[education]]
@@ -160,13 +161,56 @@ location = "Saint Louis, MO"
 year = "2018-2022"
 cw_in = ["C++", "Programming Principles", "Operating Systems", "Networking Principles"]
 desc = """
-I completed my bachelor's degree in Educational Studies after completing several 
-semesters in the computer science program
+After completing several fundamental courses as a Computer Science major, I completed my undergraduate education with a degree in Educational Studies.
 """
 
 # OPEN SOURCE PROJECTS
 [[osp]]
-project = "This resume!"
+project_lbl = "jdeko.me"
+project_desc = "Personal Website"
+project_link = "https://jdeko.me/"
+src_lnk = "https://github.com/jdetok/jdme"
+src_lbl = "github.com/jdetok/go-api-jdeko.me"
+tech = [
+  "Go", 
+  "TypeScript/JavaScript",
+  "HTML/CSS",
+  "Docker",
+  "Postgres",
+  "MongoDB",
+  "Nginx",
+  "Cloudflare"
+]
+highlights = [
+  """Designed REST API to access NBA/WNBA statistics from a Postgres database""",
+  """Designed custom logging system that logs HTTP requests to a MongoDB database""",
+  """Frontend built using plain HTML/CSS/JavaScript(transpiled from TypeScript)"""
+]
+
+[[osp]]
+project_lbl = "STL Transit Map"
+project_desc = "Masters Research Project"
+project_link = "https://jdeko.me/mrp/"
+src_lnk = "https://github.com/jdetok/stl-transit"
+src_lbl = "github.com/jdetok/stl-transit"
+tech = [
+  "TypeScript/JavaScript",
+  "ESRI ArcGIS Maps SDK for JavaScript", 
+  "PostGIS",
+  "Go",
+  "HTML/CSS",
+  "Docker",
+  "Postgres",
+]
+highlights = [
+  """Designed an open source and locally-hosted PostGIS/Go backend for serving GIS data to a TypeScript frontend using the ArcGIS Maps SDK""",
+  """Built an accessible and intuitive frontend utilizing ArcGIS web components and ESRI Calcite Design System components""",
+]
+
+[[osp]]
+project_lbl = "This Resume!"
+project_desc = "Custom resume built with Hugo"
+project_link = "https://jdeko.me/resume/cv/"
 src_lnk = "https://github.com/jdetok/resume"
 src_lbl = "github.com/jdetok/resume"
 highlights = [
@@ -174,27 +218,9 @@ highlights = [
 ]
 
 [[osp]]
-project = "My personal website: jdeko.me"
-src_lnk = "https://github.com/jdetok/go-api-jdeko.me"
-src_lbl = "github.com/jdetok/go-api-jdeko.me"
-tech = [
-  "Go", 
-  "HTML/CSS/JavaScript",
-  "Docker",
-  "Postgres",
-  "MongoDB",
-  "Apache Web Server",
-  "Cloudflare"
-]
-highlights = [
-  """Designed REST API to access NBA/WNBA statistics from a Postgres database""",
-  """Designed custom logging system that logs HTTP requests to a MongoDB database""",
-  """Frontend built using plain HTML/CSS/JavaScript"""
-]
-
-
-[[osp]]
-project = "NBA/WNBA Statistics Database"
+project_lbl = "NBA/WNBA Statistics Database"
+project_desc = "Supports Personal Website"
+project_link = "https://github.com/jdetok/bball-etl-cli"
 src_lnk = "https://github.com/jdetok/bball-etl-cli"
 src_lbl = "github.com/jdetok/bball-etl-cli"
 tech = [
@@ -209,7 +235,9 @@ highlights = [
 ]
 
 [[osp]]
-project = "GoPuml"
+project_lbl = "GoPuml"
+project_desc = "Personal Project"
+project_link = "https://github.com/jdetok/gopuml/"
 src_lnk = "https://github.com/jdetok/gopuml"
 src_lbl = "github.com/jdetok/gopuml"
 tech = [
