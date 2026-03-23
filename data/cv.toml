@@ -227,26 +227,7 @@ tech = [
   "Go", 
   "Docker",
   "Postgres",
-  "PL/pgSQL"
 ]
 highlights = [
   """Designed a fully normalized relational database to store NBA/WNBA stats""",
-  """Calls official NBA API, cleans/restructures the returned JSON, inserts into database"""
-]
-
-[[osp]]
-project_lbl = "GoPuml"
-project_desc = "Personal Project"
-project_link = "https://github.com/jdetok/gopuml/"
-src_lnk = "https://github.com/jdetok/gopuml"
-src_lbl = "github.com/jdetok/gopuml"
-tech = [
-  "Go", 
-  "PlantUML (Puml)",
-  "Regex"
-]
-highlights = [
-  """Command line tool that scans a Go codebase for specific regex patterns, 
-  maps Go syntax to Plantuml syntax, and outputs a valid Plantuml script that 
-  renders as a UML class diagram""",
 ]
